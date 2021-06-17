@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Make me into a grid!</title>
+        <title>Site layout with flexbox</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,22 +15,31 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
+    </head><body>
+    <section class="flex-container">
+    <header>
+        <h1>Hi. I'm Sarah.</h1>
+    </header>
+   
+    
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <main>I am a <span>Responsive Designer & Developer</span>  who thrives on creating efficient, functional websites for the best user experience, When I'm not working, pursuing side projects or spending time wth my family, I can be found traveling, hiking and searching for some 'good' trouble. </main>
        
-        <section class="wrapper">
-            <div class="div-1">
-                Div 1
+            <div class="div-1" class="flex-items">
+                <p>I was born and raised in Southern Oregon, but spent several years in the military.  I'm always on the lookout for my next adventure.</p>
             </div>
-            <div class="div-2">
-                Div 2
+            <div class="div-2" class="flex-items">
+                <p><span>My passion:</span>I love to teach! I spent many years teaching before moving into the world of tech.  I've taught all sorts of learners from yogis to preschoolers. To learn is to live! </p>
             </div>
-            <div class="div-3">
-                Div 3
+            <div class="div-3" class="flex-items">
+                <p><span>Hobbies:</span> I love to travel, try anything once and spend time with my family in nature.</p>
             </div>
+            <footer>
+                <i class = "fab fa-twitter"></i>
+                <i class = "fab fa-linkedin"></i>
+            </footer>
         </section>    
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
