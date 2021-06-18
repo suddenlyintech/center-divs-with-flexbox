@@ -114,8 +114,9 @@ body {
 .flex-container{
     display: flex;
     justify-content:space-between;
-    flex-flow: row  wrap;
-    max-width: 1200px; 
+    flex-flow: row wrap;
+    max-width:1200px;
+ 
 }
 
 p span{
