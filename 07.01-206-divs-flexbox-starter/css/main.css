@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -108,7 +108,8 @@ body {
   font-size: 1.25em;
   color: #fff;
   display: flex;
-  justify-content: center;
+  background-image: url('..img/tran-mau-tri-tam-vGsf7HSWOU8-unsplash.jpg');
+ 
   
 }
 .flex-container{
@@ -116,6 +117,7 @@ body {
     justify-content:space-between;
     flex-flow: row wrap;
     max-width:1200px;
+    align-items: center;
  
 }
 
